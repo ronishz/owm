@@ -1,8 +1,9 @@
 # owm
+Script which gives weather information about any city in the world.
 
 Introduction-
 
-This is a simple script to get the details about weather in your current city.
+This is a simple script to get the details about weather in your city.
 This script needs openWeatherMap(OWM) api.
 You don't need to generate the api key as I've already done it and added it in the script.
 
