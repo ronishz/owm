@@ -1,6 +1,7 @@
 import os,sys,time
 d=time.strftime("%Y-%m-%d")
-def getWeather():	
+def getWeather():
+	print "Enter the name of the city:		"	
 	os.system("python owm.py | grep "+d+" -A 14 -B 2 > output.txt")
 	os.system("sed -i 's/u//g' output.txt")
 	os.system("sed -i 's/poplation/population/g' output.txt")
